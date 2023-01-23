@@ -1,0 +1,62 @@
+:root {
+    --color-bisque: bisque;
+    --color-blue: rgb(70, 63, 203);
+    --color-green: rgb(48, 138, 48);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    min-height: 100vh;
+    color: var(--color-bisque);
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--color-bisque);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.incrementBtn {
+    background: var(--color-blue);
+}
+
+.saveBtn {
+    background: var(--color-green);
+}
+
+.saveEl {
+    margin-top: 20px;
+}
