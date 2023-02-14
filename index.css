@@ -2,6 +2,8 @@
     --color-bisque: bisque;
     --color-blue: rgb(70, 63, 203);
     --color-green: rgb(48, 138, 48);
+    --color-brown: rgb(94, 41, 41);
+    --color-gray: gray;
 }
 
 * {
@@ -57,6 +59,14 @@ button {
     background: var(--color-green);
 }
 
-.saveEl {
-    margin-top: 20px;
+.sumBtn{
+    background: var(--color-brown);
+}
+
+.resetsBtn{
+    background: var(--color-gray);
+}
+
+.saveEl, .sumEl {
+    margin: 20px 0 20px 0;
 }
