@@ -11,7 +11,9 @@ const increment = () => {
 }
 
 const save = () => {
-    if (!number.length) {
+    if(count === 0){
+        countStr = ""
+    } else if(!number.length) {
         countStr = `${count} `;
     } else if (number.length) {
         countStr = `- ${count} `;
@@ -37,5 +39,5 @@ const resets = () => {
     number = "";
     sumEl.textContent = `Sum:`;
     countEl.textContent = 0;
-    saveEl.textContent = 0;
+    saveEl.textContent = `Previous entries:` ;
 }
