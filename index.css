@@ -40,6 +40,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.messageEl{
+    color:brown;
+}
+
 button {
     border: none;
     padding-top: 10px;
